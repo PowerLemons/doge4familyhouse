@@ -67,7 +67,9 @@ a:hover {
 	padding-right: 50px !important;
 }
 
-.info-container > .container {
-	padding-left: 200px;
-	padding-right: 200px;
+@media (min-width: 767px) {
+	.info-container > .container {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
 }
