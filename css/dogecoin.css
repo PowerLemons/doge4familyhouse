@@ -1,0 +1,50 @@
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	overflow-x: hidden;
+	line-height: normal;
+}
+		
+*:focus {
+	outline: none !important;
+}
+
+p {
+	font-size: 1.6em;
+}
+		
+h1, h2, h3, h4, h5, h6 {
+}
+		
+hr {
+	border-color: grey;
+}
+
+a {
+	color: #29A6E6;
+}
+
+a:hover {
+	color: #1B9DE0;
+}
+
+.header-container {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1AD6FD, #1D62F0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF9500, #FF5E3A);; /* Standard syntax */
+}
+
+.header-title {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	color: white;
+	padding-top: 25px;
+}
+
+.header-body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 50px;
+}
