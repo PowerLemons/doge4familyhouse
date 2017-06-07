@@ -1,5 +1,4 @@
 body {
-	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
 	overflow-x: hidden;
 	line-height: normal;
 }
@@ -9,11 +8,12 @@ body {
 }
 
 p {
-	font-size: 1.2em;
+	font-family: "Comic Neue", sans-serif;
+	font-size: 1.9em;
 }
 		
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Arial";
+	font-family: "Arial", sans-serif;
 	font-weight: bold;
 }
 		
@@ -29,6 +29,8 @@ a:hover {
 	color: #1B9DE0;
 }
 
+/* Header Container */
+
 .header-container {
     background: #1D62F0; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#1AD6FD, #1D62F0); /* For Safari 5.1 to 6.0 */
@@ -38,7 +40,7 @@ a:hover {
 }
 
 .header-title {
-	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
+	font-family: "Comic Neue", sans-serif;
 	font-weight: bold;
 	color: white;
 	padding-top: 25px;
@@ -53,14 +55,14 @@ a:hover {
 }
 
 .header-button-text {
-	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
+	font-family: "Comic Neue", sans-serif;
 }
 
-.header-donate {
-	text-shadow: 3px 0 0 #000000, -3px 0 0 #000000, 0 3px 0 #000000, 0 -3px 0 #000000, 2px 2px #000000, -2px -2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000;
-}
+/* Info Container */
 
 .info-container {
+    background: #F7F7F7; /* For browsers that do not support gradients */
+	
 	padding-top: 50px;
 	padding-bottom: 50px;
 	padding-left: 50px !important;
