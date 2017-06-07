@@ -1,5 +1,5 @@
 body {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
 	overflow-x: hidden;
 	line-height: normal;
 }
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .header-title {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
 	font-weight: bold;
 	color: white;
 	padding-top: 25px;
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .header-button-text {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-family: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
 }
 
 .header-donate {
