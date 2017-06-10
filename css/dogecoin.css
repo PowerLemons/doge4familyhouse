@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 		
 hr {
-	border-color: grey;
+	border-color: white;
 }
 
 a {
@@ -32,8 +32,8 @@ a:hover {
 /* Header Container */
 
 .header-container {
-    background: #1D62F0; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#1AD6FD, #1D62F0); /* For Safari 5.1 to 6.0 */
+    background: #FF5E3A; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FF9500, #FF5E3A); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FF9500, #FF5E3A); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF9500, #FF5E3A); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#FF9500, #FF5E3A); /* Standard syntax */
@@ -47,7 +47,7 @@ a:hover {
 }
 
 .header-buttons {
-	padding-bottom: 50px;
+	padding-bottom: 10px;
 }
 
 .header-body {
@@ -61,7 +61,7 @@ a:hover {
 /* Info Container */
 
 .info-container {
-    background: #F7F7F7; /* For browsers that do not support gradients */
+    background: #F7F7F7;
 	
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -74,4 +74,22 @@ a:hover {
 		padding-left: 200px;
 		padding-right: 200px;
 	}
+}
+
+/* Footer Container */
+
+.footer-container {
+    background: #FF5E3A;
+	
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+.footer-text {
+	font-family: "Comic Neue", sans-serif;
+	color: white;
+}
+
+.footer-img {
+	padding-top: 10px;
 }
