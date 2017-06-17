@@ -3,9 +3,9 @@ $.ajax({
 	dataType: "text",
 	success: function(data) {
 		var json = $.parseJSON(data);
-		var balance = (json.data.confirmed_balance);
+		var balance = json.data.confirmed_balance;
 
 		$(".progress-bar").animate({width: (balance / 15000000 * 100).toString() + "%"}, 2000);
-		$('.balance').html("&ETH;" + Math.round(json.data.confirmed_balance).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " of &ETH;1,500,000 donated so far!");
+		$('.balance').html("&ETH;" + Math.round(balance).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " of &ETH;1,500,000 donated so far!");
 	}
 });
