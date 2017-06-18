@@ -21,7 +21,15 @@
 	
 	<!-- Javascript -->
 	<script src="./javascript/balancebar.js"></script>
-	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('#learn-more').on('click', function() {
+			$('html').scrollTo('#page-content', 500);
+		});
+	});
+	</script>
 
 	<!-- CSS -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -48,7 +56,7 @@
 			<div class="row text-center header-buttons">
 				<div class="col-md-5">
 					<h2>Donate DOGE</h2>
-					<a type="button" class="btn btn-danger" href="dogecoin:DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu"><h4 class="header-button-text">DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu</h4></a>
+					<p class="button"><a href="dogecoin:DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu">DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu</a></p>
 				</div>
 				<div class="col-md-2"><h3>--- or ---</h3></div>
 				<div class="col-md-5">
@@ -56,7 +64,7 @@
 					<a type="button" class="btn btn-danger" href="https://familyhouse.ejoinme.org/"><h4 class="header-button-text">Donate with USD via Family House</h4></a>
 				</div>
 			</div>
-			<div class="text-center">
+			<div id="learn-more" class="text-center">
 				<h2>Learn More</h2>
 				<img src="./img/more.png" class="img-responsive center-block" alt="by scrolling below">
 			</div>
@@ -64,27 +72,29 @@
 	</div>
 </div>
 
-<div class="info-container">
-	<div class="container">
-		<h1>About Doge 4 Family House</h1>
-		<p>Founded in 1981, Family House is a 501(c) (3) not-for-profit organization providing temporary housing to families of seriously ill children receiving treatment at the University of California San Francisco Benioff Children’s Hospital. Qualifying families live more than 50 miles from UCSF, and many live at or below the low-income status as determined by UCSF. Our location sustains nearly a 100% occupancy rate and can accommodate 240 people per night. Over the course of a year we serve more than 3,000 families.</p>
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0VaKz7BWrhE"></iframe>
+<div id="page-content">
+	<div class="info-container">
+		<div class="container">
+			<h1>About Doge 4 Family House</h1>
+			<p>Founded in 1981, Family House is a 501(c) (3) not-for-profit organization providing temporary housing to families of seriously ill children receiving treatment at the University of California San Francisco Benioff Children’s Hospital. Qualifying families live more than 50 miles from UCSF, and many live at or below the low-income status as determined by UCSF. Our location sustains nearly a 100% occupancy rate and can accommodate 240 people per night. Over the course of a year we serve more than 3,000 families.</p>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0VaKz7BWrhE"></iframe>
+			</div>
+			<h1>Family House in San Francisco, California</h1>
+			<p>Family House is more than just free, temporary housing – it’s a home away from home, and a supportive community of people who are dedicated to providing a caring environment for the entire family while their child is undergoing treatment.</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5304.050497547588!2d-122.39432289293258!3d37.77111646256069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085875d1016f847%3A0x336bdb202240d6b9!2sFamily+House%2C+Inc.!5e0!3m2!1sen!2sca!4v1496807377539" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<h1>What the 1,500,000 Dogecoin will help do</h1>
+			<p>By providing care, comfort and community, Family House eases the burdens families face when dealing with a child’s life-threatening illness. Parents bring children to UCSF Benoiff Children’s Hospital from all over the country and all over the world without means to pay for the high price of a hotel room in San Francisco during their child’s prolonged treatment lasting weeks or months. Direct support, such as gas cards, food supplies, diapers and other essentials come from gifts like yours. Donations are essential in maintaining services and a healthy facility, providing a safe and comforting environment for our guests close to the hospital.</p>
+			<h1>Who are you?</h1>
+			<p>Hi, I'm Eric Nakagawa. I love funny pictures, dogecoin (such community), and helping people. I'm a new member of the Dogecoin Foundation helping with community outreach.<br><br>Design and layout by Christine Ricks (original creator of dogecoin logo).<br><br>Shiba Inu drawing by Thanh Ma.</p>
 		</div>
-		<h1>Family House in San Francisco, California</h1>
-		<p>Family House is more than just free, temporary housing – it’s a home away from home, and a supportive community of people who are dedicated to providing a caring environment for the entire family while their child is undergoing treatment.</p>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5304.050497547588!2d-122.39432289293258!3d37.77111646256069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085875d1016f847%3A0x336bdb202240d6b9!2sFamily+House%2C+Inc.!5e0!3m2!1sen!2sca!4v1496807377539" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
-		<h1>What the 1,500,000 Dogecoin will help do</h1>
-		<p>By providing care, comfort and community, Family House eases the burdens families face when dealing with a child’s life-threatening illness. Parents bring children to UCSF Benoiff Children’s Hospital from all over the country and all over the world without means to pay for the high price of a hotel room in San Francisco during their child’s prolonged treatment lasting weeks or months. Direct support, such as gas cards, food supplies, diapers and other essentials come from gifts like yours. Donations are essential in maintaining services and a healthy facility, providing a safe and comforting environment for our guests close to the hospital.</p>
-		<h1>Who are you?</h1>
-		<p>Hi, I'm Eric Nakagawa. I love funny pictures, dogecoin (such community), and helping people. I'm a new member of the Dogecoin Foundation helping with community outreach.<br><br>Design and layout by Christine Ricks (original creator of dogecoin logo).<br><br>Shiba Inu drawing by Thanh Ma.</p>
 	</div>
-</div>
 
-<div class="footer-container">
-	<div class="container text-center">
-		<h4 class="footer-text">A Dogecoin Fundraiser for</h4>
-		<a href="http://familyhouseinc.org/" target="_blank"><img src="./img/family-house-icon.png" class="img-responsive center-block footer-img" alt="Doge4FamilyHouse"></a>
+	<div class="footer-container">
+		<div class="container text-center">
+			<h4 class="footer-text">A Dogecoin Fundraiser for</h4>
+			<a href="http://familyhouseinc.org/" target="_blank"><img src="./img/family-house-icon.png" class="img-responsive center-block footer-img" alt="Doge4FamilyHouse"></a>
+		</div>
 	</div>
 </div>
 
