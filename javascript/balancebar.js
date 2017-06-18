@@ -1,5 +1,5 @@
 $.ajax({
-	url: "https://chain.so/api/v2/get_address_balance/DOGE/DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu/500",
+	url: "https://chain.so/api/v2/get_address_balance/DOGE/DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu",
 	dataType: "text",
 	success: function(data) {
 		var json = $.parseJSON(data);
