@@ -62,7 +62,7 @@ a, a:hover, a:active, a:link, a:visited {
 	margin-top: 0px;
 	display: inline-block;
 	border: 0.04em solid rgba(0, 0, 0, 0.25);
-	padding: 0.6em 1.2em;
+	padding: 0.6em 0.6em;
 	text-decoration: none;
 	border-radius: 0.3125em;
 	background: #d9534f;
@@ -95,6 +95,44 @@ p.button:hover {
 	border-color: #d43f3a;
 }
 
+.latest:active,
+.latest:visited,
+.latest {
+	display: inline-block;
+	border: 0.2em solid white;
+	padding: 0em 1.25em;
+	text-decoration: none;
+	border-radius: 0.3125em;
+	color: rgba(0, 0, 0, 0.75);
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	font-weight: 600;
+	border-style: dashed;
+}
+
+a.latest:hover {
+	color: rgba(0, 0, 0, 0.85);
+	background: #da7150;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+}
+
+p.latest,
+p.latest:hover {
+	color: rgba(0, 0, 0, 0.75);
+	background: transparent;
+	border-style: dashed;
+	transition: border-color 0.5s;
+	-webkit-transition: border-color 0.5s;
+	border-color: #f4997c;
+}
+
+p.latest:hover {
+	transition: border-color 0.5s;
+	-webkit-transition: border-color 0.5s;
+	border-color: #da7150;
+}
+
 @media (min-width: 767px) {
 	.header-container {
 		-webkit-box-sizing: border-box;
@@ -122,6 +160,28 @@ p.button:hover {
 		cursor: pointer;
 	}
 	
+	.latest-donation {
+		line-height: 0;
+		padding-top: 10px;
+	}
+
+	.button:active,
+	.button:visited,
+	.button {
+		padding: 0.6em 1.2em;
+	}
+}
+
+@media (max-width: 767px) {
+	.latest-donation {
+		margin-bottom: 0px;
+	}
+}
+
+@media (max-height: 768px) {
+	.or {
+		display: none;
+	}
 }
 
 #learn-more img {
