@@ -95,11 +95,6 @@ p.button:hover {
 	border-color: #d43f3a;
 }
 
-.latest-donation {
-	line-height: 0;
-	padding-top: 10px;
-}
-
 .latest:active,
 .latest:visited,
 .latest {
@@ -165,8 +160,17 @@ p.latest:hover {
 		cursor: pointer;
 	}
 	
+	.latest-donation {
+		line-height: 0;
+		padding-top: 10px;
+	}
 }
 
+@media (max-width: 767px) {
+	.latest-donation {
+		margin-bottom: 0px;
+	}
+}
 
 @media (max-height: 768px) {
 	.or {
