@@ -164,6 +164,12 @@ p.latest:hover {
 		line-height: 0;
 		padding-top: 10px;
 	}
+
+	.button:active,
+	.button:visited,
+	.button {
+		padding: 0.6em 1.2em;
+	}
 }
 
 @media (max-width: 767px) {
