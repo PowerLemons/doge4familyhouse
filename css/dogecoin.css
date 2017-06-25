@@ -21,7 +21,18 @@ hr {
 	border-color: white;
 }
 
+br {
+	content: "";
+	margin: 2em;
+	display: block;
+	font-size: 24%;
+}
+
 a, a:hover, a:active, a:link, a:visited {
+	color: #FF5E3A;
+}
+
+.button > a, .button > a:hover, .button > a:active, .button > a:link, .button > a:visited, #btn {
 	color: #FFFFFF;
 	text-decoration: none;
 }
