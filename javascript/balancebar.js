@@ -1,5 +1,5 @@
 $.ajax({
-	url: "https://chain.so/api/v2/get_address_balance/DOGE/DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu/1",
+	url: "https://chain.so/api/v2/get_address_balance/DOGE/ABaii5ioqYvNCsrEKogNFDUroXeLcY4zir/1",
 	dataType: "text",
 	success: function(data) {
 		var json = $.parseJSON(data);
@@ -11,7 +11,7 @@ $.ajax({
 });
 
 $.ajax({
-	url: "https://chain.so/api/v2/address/DOGE/DQo4JM5X5Jmbhr83p8s1nAAkEuR6ipkRhu",
+	url: "https://chain.so/api/v2/address/DOGE/ABaii5ioqYvNCsrEKogNFDUroXeLcY4zir",
 	dataType: "text",
 	success: function(data) {
 		var json = $.parseJSON(data);
