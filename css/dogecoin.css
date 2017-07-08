@@ -67,6 +67,11 @@ a, a:hover, a:active, a:link, a:visited {
 	font-family: "Comic Neue", sans-serif;
 }
 
+.header-logo {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
 .button:active,
 .button:visited,
 .button {
