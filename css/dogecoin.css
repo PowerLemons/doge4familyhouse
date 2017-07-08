@@ -67,13 +67,6 @@ a, a:hover, a:active, a:link, a:visited {
 	font-family: "Comic Neue", sans-serif;
 }
 
-.header-logo {
-	padding-top: 15px;
-	padding-bottom: 30px;
-	max-width: 35%;
-	height: auto;
-}
-
 .button:active,
 .button:visited,
 .button {
@@ -190,6 +183,15 @@ p.latest:hover {
 	}
 }
 
+@media (min-width: 768px) {
+	.header-logo {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		max-width: 35%;
+		height: auto;
+	}
+}
+
 @media (max-width: 767px) {
 	.latest-donation {
 		margin-bottom: 0px;
@@ -204,7 +206,16 @@ p.latest:hover {
 		padding-top: 15px;
 		padding-bottom: 30px;
 		max-width: 30%;
-		height: auto;
+		max-height: auto;
+	}
+}
+
+@media (max-width: 414px) {
+	.header-logo {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		max-width: 100%;
+		max-height: auto;
 	}
 }
 
