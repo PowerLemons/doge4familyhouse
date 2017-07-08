@@ -70,6 +70,8 @@ a, a:hover, a:active, a:link, a:visited {
 .header-logo {
 	padding-top: 15px;
 	padding-bottom: 30px;
+	max-width: 35%;
+	height: auto;
 }
 
 .button:active,
@@ -197,6 +199,12 @@ p.latest:hover {
 @media (max-height: 768px) {
 	.or {
 		display: none;
+	}
+	.header-logo {
+		padding-top: 15px;
+		padding-bottom: 30px;
+		max-width: 30%;
+		height: auto;
 	}
 }
 
